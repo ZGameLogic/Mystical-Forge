@@ -6,4 +6,4 @@
 [Add description here]
 
 ### Screenshots
- [Please add screenshots of the changes here]
+ [Please add screenshots of the changes here if applicable]

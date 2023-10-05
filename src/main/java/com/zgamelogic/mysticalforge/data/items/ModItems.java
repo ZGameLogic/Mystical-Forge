@@ -13,6 +13,8 @@ public abstract class ModItems {
 
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SHOVEL_TEST = ITEMS.register("test_shovel",
+            () -> new Item(new Item.Properties().stacksTo(1)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

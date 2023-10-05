@@ -25,7 +25,7 @@ public abstract class MysticalForgeCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
                     .title(Component.translatable("creativetab.mystical_forge_tab"))
                     .displayItems((pParameters, pOutput) -> {
-
+                        pOutput.accept(ModItems.SHOVEL_TEST.get());
                     })
                     .build());
 
